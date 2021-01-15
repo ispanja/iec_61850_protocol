@@ -1,2 +1,4 @@
 # iec_61850_protocol
-The IEC 61850 enables the integration of all protection, control, measurement and monitoring functions within a power system network ath the field or process and station control levels
+The IEC 61850 enables the integration of all protection, control, measurement and monitoring functions within a power system network ath the field or process and station control levels. It enables the integration of all features by one common protocol. Provides the means of high speed substation applications, station wide interlocking and other functions which needs intercommunication between IEDs.
+
+Protocol consist of Modbus and station configuration language based on XML.(SCL). Apart from that, several communication protocols are also used such as GOOSE, SMV and client server (MMS). This code demnostrates possibilities of client-serves communication. Program is implemented using beck development kit and it is connected with measurement IED which sends data by request. Data sent is being visualised by SCADA system.  
